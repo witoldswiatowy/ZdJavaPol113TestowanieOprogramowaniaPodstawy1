@@ -53,7 +53,6 @@ public class Account {
         if (balanceTmp != this.balance) {
             other.deposit(amount);
         }
-
     }
 
     private void validedDebit (){
